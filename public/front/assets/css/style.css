@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700&display=swap");
+body {
+  height: 100vh;
+  background-image: url("../img/bg-main.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*--------------------------------------------------------------
+# bg-section
+--------------------------------------------------------------*/
+.bg-section {
+  padding-top: 40px;
+}
+.bg-section .site-logo {
+  text-align: center;
+}
+.bg-section .site-logo .logo-1 {
+  height: 64px;
+}
+.bg-section .site-logo .logo-2 {
+  height: 30px;
+  margin-top: 3px;
+}
+.bg-section .innner-con .main-title {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+.bg-section .innner-con .sub-title {
+  font-size: 13px;
+  color: #fff;
+}
+.bg-section .btn-con .app-store-btn {
+  text-decoration: none;
+  display: inline-block;
+  background-color: transparent;
+  padding: 8px 15px;
+  border: 1px solid #fefffe;
+  transition: all 0.2s ease-in;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 14px;
+}
+.bg-section .btn-con .app-store-btn:hover {
+  background-color: #fff;
+  color: #111;
+}
+.bg-section .btn-con .goole-store-btn {
+  text-decoration: none;
+  display: inline-block;
+  background-color: transparent;
+  padding: 10px 10px;
+  transition: all 0.2s ease-in;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  border: 1px solid #fefffe;
+}
+.bg-section .btn-con .goole-store-btn:hover {
+  background-color: #fff;
+  color: #111;
+}
+.bg-section .form-sec {
+  background-color: #000000ca;
+  padding: 27px;
+  border-radius: 10px;
+}
+.bg-section .form-sec .sub-btn {
+  text-align: center;
+  background: linear-gradient(180deg, #ff6b5f 28%, #fa8d32 100%);
+  border: 1px solid #ff6b5f;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 13px;
+  padding: 7px 10px;
+}
+.bg-section .form-sec .act-sec {
+  display: flex;
+  justify-content: space-between;
+}
+.bg-section .form-sec .act-sec .form-check-label {
+  color: #FF0101;
+  font-size: 13px;
+}
+.bg-section .form-sec .act-sec .forget a {
+  color: #FF0101;
+  font-size: 13px;
+}
+.bg-section .form-sec .privay-txt {
+  color: #777;
+  font-size: 10px;
+  margin-top: 7px;
+}
+.bg-section .form-sec .privay-txt a {
+  color: #FF0101;
+}
+.bg-section .create-btn {
+  border: 1px solid #FF0101;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  color: #FF0101;
+  font-size: 13px;
+  padding: 7px 10px;
+  text-align: center;
+  transition: all 0.2s ease-in;
+  text-decoration: none !important;
+}
+.bg-section .create-btn:hover {
+  background: linear-gradient(180deg, #ff6b5f 28%, #fa8d32 100%);
+  border: 1px solid #ff6b5f;
+  color: #fff;
+}
+.bg-section .form-control:focus {
+  border-color: #ff8480;
+  box-shadow: none;
+}
+.bg-section .hv-ac {
+  color: #777;
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.bg-section .hv-ac a {
+  color: #FF0101;
+}
+
+.footer {
+  /** Medium devices (tablets, 768px and up) **/
+  margin-top: 20px;
+  background-color: #111;
+  padding: 20px 0px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.footer .footer-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .footer-list ul li {
+  display: inline-block;
+}
+.footer .footer-list ul li:not(:last-child) {
+  margin-right: 8px;
+}
+.footer .footer-list ul li a {
+  text-decoration: none;
+  color: #FF0101;
+  font-size: 11px;
+}
+.footer .copy-text {
+  margin-bottom: 0;
+  font-size: 11px;
+  color: #777;
+}
